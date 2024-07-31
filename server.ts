@@ -21,9 +21,6 @@ const createServer = async (): Promise<Application> => {
     // Use graphqlUploadExpress middleware in your Express app setup
     // app.use(graphqlUploadExpress())
 
-    // Routes setup
-    // app.use(routes);
-
     // Error handling middleware
     // app.use(errorHandlerUtils.errorHandler);
 
